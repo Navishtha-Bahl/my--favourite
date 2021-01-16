@@ -1,0 +1,123 @@
+img {
+    border-radius: 50%;
+    border: 10px solid #000000;
+}
+
+body {
+   text-align: center;
+}
+
+p {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    color: #00004d;
+    max-width: 800px;
+    margin: 25px auto;
+    line-height: 2;
+}
+
+h1 {
+    color: brown;
+    font-family: "Langar", cursive;
+    text-shadow: 4px 4px whitesmoke;
+    font-size: 29px;
+}
+
+.line {
+    border: 5px solid black;
+    background-color: black;
+    width: 90px;
+    height: 1px;
+    margin: 50px auto;
+}
+
+.menue {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    list-style: none;
+    z-index: 10;
+  display: inline;
+}
+
+.menue li {
+    float: left;
+    padding: 2px;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+
+}
+
+.menue li:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+#home {
+    background-image: linear-gradient(to right top, #f2e4ec, #edcee8, #dfbae9, #c9a9ee, #a79bf5, #a79bf5, #a79bf5, #a79bf5, #c9a9ee, #dfbae9, #edcee8, #f2e4ec);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    z-index: 1;
+    font-family: 'Langar', cursive;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+#bio {
+    text-align: center;
+    padding: 700px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: radial-gradient(circle,
+            #eef699,
+            #cce393,
+            #aece8c,
+            #92ba86,
+            #7ba57e,
+            #7ba57e,
+            #7ba57e,
+            #7ba57e,
+            #92ba86,
+            #aece8c,
+            #cce393,
+            #eef699);
+}
+
+img:hover {
+    transform: skewY(20deg);
+}
+
+img {
+    transition: transform 0s;
+}
+
+#rewiews {
+  background-image: radial-gradient(circle, #ff0092, #ff3a76, #ff5f61, #ff7f52, #ff9c4e, #ffa66a, #ffb184, #ffbd9d, #ffc9c7, #ffdbe8, #fbeefb, #ffffff);
+}
+#writtings{
+   background-image: radial-gradient(circle, #f0e2ea, #ebe1f4, #dce2fe, #c3e6ff, #a8ebff, #9cebf1, #99e9df, #9fe6ca, #adddb3, #bdd3a0, #cbc893, #d6bc8d);
+}
+#writtings a{
+    color: black;
+    text-decoration: none;
+}
+#wriitings h1 {
+    color: goldenrod;
+    text-shadow: green;
+}
+#work{
+    background-image: radial-gradient(circle, #de21cd, #db66e3, #da91f2, #deb5fb, #e7d6ff, #e7d6ff, #e7d6ff, #e7d6ff, #deb5fb, #da91f2, #db66e3, #de21cd);
+}
+#inspiration{
+    background-image: radial-gradient(circle, #a35ad1, #f3639e, #ff947c, #f5c886, #e3f4bc);
+}
